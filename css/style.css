@@ -1,0 +1,202 @@
+
+/* our framework */
+
+.line{
+    border:2px solid #444 ;
+    text-align: center;
+    width: 50px;
+}
+
+
+
+/* end of frame work */
+
+
+
+
+
+body {
+    padding-top: 62px;
+}
+
+/* start nav bar */
+
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: #444;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+}
+.navbar-light .navbar-brand {
+    font-size: 30px;
+
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link:hover {
+    color: #42AB9E;
+}
+
+
+.dropdown-menu {
+    border: 1px solid #555;
+    min-width: 200px;
+    background-color: #f8f9fa;
+}
+.dropdown-item {
+        padding: 8px 20px !important;
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    padding-left: 35px !important;
+    background-color: #42AB9E;
+    color: #fff;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/* end navbar */
+
+/* start carosall */
+
+.carousel-item img {
+    max-width: 100%;
+    height: 600px;
+}
+
+.carousel-caption {
+    bottom: 115px;
+    background-color: rgb(66, 171, 158, .2);
+    border: 1px solid rgb(66, 171, 158, .3) ;
+    border-radius: 15px;
+}
+.carousel-caption p {
+    margin-top: 25px;
+
+}
+.carousel-caption h5 {
+    font-size: 2.25rem !important;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgb(66, 171, 158) ;
+}
+.carousel-indicators .active {
+    background-color: rgb(66, 171, 158, .9);
+}
+
+/* about me */
+
+.about {
+    padding:95px 0;
+}
+.about .about-me h2 {
+    color: #444;
+    font-weight: bold;
+
+}
+
+.about .row {
+    margin-top: 80px;
+}
+.about .row div p{
+    margin-top: 20px;
+}
+.about .row div img {
+    max-width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.about .row div p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #777;
+}
+.about .icons {
+    letter-spacing: 12px;
+}
+.about .icons a {
+    color: #42AB9E;
+}
+.about .icons a:hover {
+    color: rgb(66, 171, 158, .5);
+}
+
+/* end abut me */
+
+/* start service */
+
+.box-3 {
+    padding: 60px 0;
+}
+.box-3 .row div i{
+    color: #666;
+}
+.box-3 .row div h5 {
+    margin: 35px 0 20px;
+    color: #444;
+    font-weight: 700;
+}
+.box-3 .row div p {
+    line-height: 1.8;
+    color: #777;
+}
+
+/*end our service */
+
+/* start our team */
+
+.box-4 {
+    background: url(../imgs/7.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+    position: relative;
+    padding: 200px 0;
+    min-height: 900px;
+}
+.box-4 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(66, 171, 158, .5);
+}
+.box-4 .our-team {
+    padding: 60px 0;
+}
+.box-4 .our-team h2 {
+    margin-bottom: 70px;
+}
+.box-4 .our-team h5 {
+    margin: 20px 0;
+}
+.box-4 .our-team .row div {
+    margin-bottom: 20px;
+}
+.box-4 .our-team .dna {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+/* end of our team */
+
+
+
+}
